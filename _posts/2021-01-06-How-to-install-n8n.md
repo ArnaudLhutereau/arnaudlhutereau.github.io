@@ -4,6 +4,7 @@ layout: post
 categories: [Automation, n8n]
 image: /assets/img/posts/n8n.png
 description: "Want to install n8n? Let's see how to do"
+customexcerpt: "You Want to install n8n? Let's see how to do!"
 ---
 
 You want to discover and play with n8n? You can follow this tutorial to install n8n where you want (own PC, cloud...). During it, I used AWS but it will work everywhere if you follow all prerequisite ;-)
