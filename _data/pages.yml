@@ -1,4 +1,4 @@
 pages:
-  - {name: 'Accueil', url: '/'}
+  - {name: 'Home', url: '/'}
   - {name: 'Articles', url: 'articles/'}
-  - {name: 'A propos', url: 'about/'}
+  - {name: 'About', url: 'about/'}
