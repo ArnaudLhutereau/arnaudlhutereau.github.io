@@ -119,6 +119,8 @@ http://localhost:5678/
 Press "o" to open in Browser.
 ```
 
+Now you have a web access to n8n. Remind you that no authentication is required, only your firewall rules protect from unauthorised access!
+
 ![n8n web ui](https://non0.blog/assets/img/posts/n8n_web_ui.png)
 
 
