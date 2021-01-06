@@ -32,7 +32,7 @@ You want to discover and play with n8n? You can follow this tutorial to install 
 
 Let's install n8n on a linux VM with ubuntu user.
 
-### Configuration for Ubuntu
+### Ubuntu
 
 Just to be sure all is OK on the current VM
 
@@ -41,7 +41,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-## Install node.js & npm
+### node.js & npm
 
 Firstly, we need to install nodejs. Ubuntu 18.04 does not have the latest node version in his repository, so don't run on "apt install nodejs"!
 
@@ -73,7 +73,7 @@ ubuntu@aws_IP:~$ npm -v
 6.14.9
 ````
 
-## Install n8n
+### Install n8n
 
 Now I can install n8n with npm command :
 
