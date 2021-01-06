@@ -37,8 +37,8 @@ Let's install n8n on a linux VM with ubuntu user.
 Just to be sure all is OK on the current VM
 
 ```
-sudo apt-get update
-sudo apt-get upgrade
+ubuntu@aws_IP:~$ sudo apt-get update
+ubuntu@aws_IP:~$ sudo apt-get upgrade
 ```
 
 ### node.js & npm
@@ -48,19 +48,19 @@ Firstly, we need to install nodejs. Ubuntu 18.04 does not have the latest node v
 We will start to add the official repo (I took the 14' version, LTS until april 2023) :
 
 ```
-wget -qO- https://deb.nodesource.com/setup_14.x | sudo -E bash -
+ubuntu@aws_IP:~$ wget -qO- https://deb.nodesource.com/setup_14.x | sudo -E bash -
 ```
 
 Now I can install node.js :
 
 ```
-sudo apt install -y nodejs
+ubuntu@aws_IP:~$ sudo apt install -y nodejs
 ```
 
 To be sure all is good for future node, I will install "build-essential" which is mandatory for some paquets.
 
 ```
-sudo apt install build-essential
+ubuntu@aws_IP:~$ sudo apt install build-essential
 ```
 
 I can check the current version with :
@@ -78,28 +78,30 @@ ubuntu@aws_IP:~$ npm -v
 Now I can install n8n with npm command :
 
 ```
-npm install n8n -g
+ubuntu@aws_IP:~$ npm install n8n -g
 ```
 
 But I have an error message about writting access :
 
  ```
+ubuntu@aws_IP:~$ npm install n8n -g
+[...]
 Missing write access to /usr/lib/node_modules
  ```
 
 After googling it, I changed the npm's default directory as they say in the npm documentation ( https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally ) with :
 
 ```
-mkdir ~/.npm-global
-npm config set prefix '~/.npm-global'
-export PATH=~/.npm-global/bin:$PATH
-source ~/.profile
+ubuntu@aws_IP:~$ mkdir ~/.npm-global
+ubuntu@aws_IP:~$ npm config set prefix '~/.npm-global'
+ubuntu@aws_IP:~$ export PATH=~/.npm-global/bin:$PATH
+ubuntu@aws_IP:~$ source ~/.profile
 ```
 
 Now I can retry n8n installation :
 
 ```
-npm install n8n -g
+ubuntu@aws_IP:~$ npm install n8n -g
 ```
 
 It's works!
