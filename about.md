@@ -8,4 +8,4 @@ title: About
 
 Computer security enthusiast, love creating and hacking stuff.
 
-![Logo](assets/img/nono.png)
+![Logo](https://non0.blog/assets/img/nono.png)
