@@ -21,7 +21,6 @@ You want to discover and play with n8n? You can follow this tutorial to install 
 - 1 GB RAM
 - 8 GB HDD
 - Default user "ubuntu"
-
 - Firewall rules in the security group linked to my VM : 
   - Incoming :
     - Allow port 22 (TCP) from my personnal IP (/32) for ssh connection
@@ -120,6 +119,6 @@ http://localhost:5678/
 Press "o" to open in Browser.
 ```
 
-!(n8n web ui)[https://non0.blog/assets/img/posts/n8n_web_ui.png]
+![n8n web ui](https://non0.blog/assets/img/posts/n8n_web_ui.png)
 
 
