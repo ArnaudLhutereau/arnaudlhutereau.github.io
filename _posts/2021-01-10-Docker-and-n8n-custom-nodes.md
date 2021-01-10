@@ -7,7 +7,7 @@ description: "Play with custom nodes on n8n docker environment"
 customexcerpt: "Play with custom nodes on n8n docker environment"
 ---
 
-You have developed your own node and you want to test it on your n8n instance running with docker, let's see how to do this!
+You have developed your own node and you want to test it on your n8n instance running on docker, let's see how to do this!
 
 * hello
 {:toc}
