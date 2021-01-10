@@ -46,7 +46,7 @@ You will find for each file 3 new files (whatever your original files : node, cr
   
 ## Organize your docker volume
 
-If you have followed the official tutorial to launch your n8n instance with Docker (https://docs.n8n.io/reference/server-setup.html#_5-create-docker-compose-file), you have mounted a volume based dedicated to n8n :
+If you have followed the official tutorial to launch your n8n instance with Docker ([https://docs.n8n.io/reference/server-setup.html#_5-create-docker-compose-file](https://docs.n8n.io/reference/server-setup.html#_5-create-docker-compose-file)), you have mounted a volume based dedicated to n8n :
 
 ```yaml
 volumes:
