@@ -17,8 +17,6 @@ You have developed your own node and you want to test it on your n8n instance ru
 
 (This is what I used)
 
-(This is what I used)
-
 - Ubuntu 18.04 (running on AWS)
 - n8n instance running on Docker
 - Your node (built or not)
