@@ -17,7 +17,7 @@ Thank to the *n8n-node-dev* I worked on a custom node for Darktrace to avoid the
 
 #### Features
 
-Darktrace have an API with more than 20 endpoints for a lot of type of request to get and send information.
+Darktrace have an API with more than 20 endpoints to get and send information.
 
 To not have a big node with a lot of fields when you want to use it, I decided to let the user write his own request with the variable selector. The user have to check what he wants to do with the help of the darktrace API documentation *(/apihelp on DT web interface)*. For example :
 
@@ -30,25 +30,25 @@ To not have a big node with a lot of fields when you want to use it, I decided t
 
 #### Implementation
 
-I assume that you have installed the node on your n8n instance
+I assume that the node is installed on the n8n instance :
 
-1. On Darktrace web interface, create or get your API credentials (public token & private token)
-2. On n8n, create a new credentials ans search "Darktrace API"
-3. Fill all fields with your information (do not add a "/" at the end of the URL according to the Darktrace documentation)
+1. On Darktrace web interface, create/get your API credentials *(public token & private token)*
+2. On n8n, create a new credential and search "Darktrace API"
+3. Fill all inputs with your information *(do not add a "/" at the end of the URL according to the Darktrace documentation)*
 
 ![Create credentials](https://non0.blog/assets/img/posts/credentials.png)
 
 
 
 4. In your n8n workflow, click on "Add node" button and add "Darktrace" *(in regular node)*
-5. Select your credentials created at the step 3.
+5. Select your credential created at the step 3.
 6. Add the date of the request to Darktrace API *(according to the documentation, the date must be within 30 minutes of the Darktrace system time)*
 7. Choose your method type
-8. Write your request, for example : /modelbreaches?from=2021-01-01T00:00:00.00
+8. Write your request, for example : */modelbreaches?from=2021-01-01T00:00:00.00*
 
 
 
-The response will be added in a *"dt_request"* variable which contains JSON return, for example I got 6 alerts :
+The response will be added in a variable called *"dt_request"* which contains JSON return, for example I got 6 alerts here by the /modelbreaches:
 
 
 
