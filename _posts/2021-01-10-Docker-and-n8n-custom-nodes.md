@@ -24,7 +24,7 @@ You have developed your own node and you want to test it on your n8n instance ru
     
 ## Build your custom nodes
 
-If you don't have built your node before, you can do it with n8n-node-dev command :
+If you didn't build your node before, you can do it with n8n-node-dev command :
 
 ```
 ubuntu@aws_IP:~/factory_n8n$ n8n-node-dev build
@@ -35,7 +35,7 @@ The nodes got build and saved into the following folder:
 /home/ubuntu/.n8n/custom
 ```
 
-Your node is now build for n8n and files are located in your n8n directory as you can see in the returned message.
+Your node is now built for n8n and files are located in your n8n directory as you can see in the returned message.
 
 You will find for each file 3 new files *(whatever your original files : node, credentials or script file linked to your node)*, example :
 
@@ -53,7 +53,7 @@ volumes:
       - ${DATA_FOLDER}/.n8n:/home/node/.n8n
 ```
 
-After to know where is your data folder, you can create a new directory inside .n8n called "custom" *(it does not exist by default)*.
+After to determine where is your data folder, you can create a new directory inside .n8n called "custom" *(it does not exist by default)*.
 
 Once done, move your node files built earlier to this new directory *(with "mv" command)*.
 
