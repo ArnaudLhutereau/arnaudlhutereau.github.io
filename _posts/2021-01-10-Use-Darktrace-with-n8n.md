@@ -7,6 +7,9 @@ description: "How to connect Darktrace with n8n"
 customexcerpt: "Get Darktrace data in your n8n workflow!"
 ---
 
+![Darktrace node](https://non0.blog/assets/img/posts/darktrace_node.png)
+
+
 n8n is a powerfull  workflow automation tool which allows us to create our own nodes for specific tools that we can use everyday.
 
 Thank to the *n8n-node-dev* I worked on a custom node for Darktrace to avoid the utilization of multiple nodes like [Function item](https://docs.n8n.io/nodes/n8n-nodes-base.functionItem/) + [HTTP request](https://docs.n8n.io/nodes/n8n-nodes-base.httpRequest/), to have an all-in-one node.
