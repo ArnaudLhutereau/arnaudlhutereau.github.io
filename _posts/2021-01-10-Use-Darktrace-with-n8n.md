@@ -36,7 +36,7 @@ I assume that you have installed the node on your n8n instance
 2. On n8n, create a new credentials ans search "Darktrace API"
 3. Fill all fields with your information (do not add a "/" at the end of the URL according to the Darktrace documentation)
 
-![Create credentials](files/darktrace/credentials.png)
+![Create credentials](https://non0.blog/assets/img/posts/credentials.png)
 
 
 
@@ -52,7 +52,7 @@ The response will be added in a *"dt_request"* variable which contains JSON retu
 
 
 
-![Responsenode](files/darktrace/response_example.png)
+![Responsenode]((https://non0.blog/assets/img/posts/response_example.png)
 
 
 
