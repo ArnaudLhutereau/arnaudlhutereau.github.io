@@ -52,7 +52,7 @@ The response will be added in a *"dt_request"* variable which contains JSON retu
 
 
 
-![Responsenode]((https://non0.blog/assets/img/posts/response_example.png)
+![Responsenode](https://non0.blog/assets/img/posts/response_example.png)
 
 
 
