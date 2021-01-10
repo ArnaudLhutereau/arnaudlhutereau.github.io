@@ -7,7 +7,7 @@ description: "Play with custom nodes on n8n docker environment"
 customexcerpt: "Play with custom nodes on n8n docker environment"
 ---
 
-!(custom node)[https://non0.blog/assets/img/posts/n8n-custom-nodes.png]
+![custom node](https://non0.blog/assets/img/posts/n8n-custom-nodes.png)
 
 
 You have developed your own node and you want to test it on your n8n instance running on docker, let's see how to do this!
