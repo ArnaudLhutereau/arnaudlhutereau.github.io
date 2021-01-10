@@ -19,7 +19,7 @@ You have developed your own node and you want to test it on your n8n instance ru
 
 - Ubuntu 18.04 (running on AWS)
 - n8n instance running on Docker
-- Your node (built or not)
+- Your node *(built or not)*
 
     
 ## Build your custom nodes
@@ -37,7 +37,7 @@ The nodes got build and saved into the following folder:
 
 Your node is now build for n8n and files are located in your n8n directory as you can see in the returned message.
 
-You will find for each file 3 new files (whatever your original files : node, credentials or script file linked to your node), example :
+You will find for each file 3 new files *(whatever your original files : node, credentials or script file linked to your node)*, example :
 
 - If you build a node called "mynode.node.ts" :
   - mynode.node.d.ts
@@ -53,9 +53,9 @@ volumes:
       - ${DATA_FOLDER}/.n8n:/home/node/.n8n
 ```
 
-After to know where is your data folder, you can create a new directory inside .n8n called "custom" (it does not exist by default).
+After to know where is your data folder, you can create a new directory inside .n8n called "custom" *(it does not exist by default)*.
 
-Once done, move your node files built earlier to this new directory (with "mv" command).
+Once done, move your node files built earlier to this new directory *(with "mv" command)*.
 
 Go to your directory which contains your docker-compose file and restart n8n
 
