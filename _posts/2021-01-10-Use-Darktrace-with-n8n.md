@@ -2,7 +2,7 @@
 title: Use Darktrace with n8n
 layout: post
 categories: [Automation, n8n]
-image: /assets/img/posts/darktrace_node.png.png
+image: /assets/img/posts/darktrace_node.png
 description: "How to connect Darktrace with n8n"
 customexcerpt: "Get Darktrace data in your n8n workflow!"
 ---
