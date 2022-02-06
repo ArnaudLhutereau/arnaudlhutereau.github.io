@@ -46,7 +46,7 @@ Dans cet article, nous utiliserons le serveur Lambda pour simplifier le test.
 
 #### Création du skill
 C'est très simple et très rapide. Il suffit d'un compte Amazon.
-Rendez-vous dans l'interface "Alexa Developper Console" à ce lien : https://developer.amazon.com/alexa/console/ask.
+Rendez-vous dans l'interface "Alexa Developper Console" à ce lien : ![https://developer.amazon.com/alexa/console/ask](https://developer.amazon.com/alexa/console/ask).
 
 Ensuite, il faut cliquer sur le bouton bleu "**Créer une skill**". Des informations sont demandées principalement au niveau architecure.
 Il faut lui donner un **nom**, le **pays principal** puis le **modèle**. Des modèles prédéfinis sont proposés. Nous avons choisi "**Custom**" pour notre application de test.
